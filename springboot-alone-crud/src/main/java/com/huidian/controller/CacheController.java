@@ -30,5 +30,10 @@ public class CacheController {
         stuService.deleteStu(sno);
         return "success";
     }
+    @GetMapping("/delqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq")
+    public String deleetqqqqqqqqqqqqqqqqqq(int sno){
+        stuService.deleteStu(sno);
+        return "success";
+    }
 
 }
